@@ -46,7 +46,7 @@ const chainConfig: Record<string, ChainConfig> = {
 };
 
 const Mint = () => {
-  const [addr, setAddr] = useState('');
+  const [addr, setAddr] = useState<string>('');
   const [fileUrl, setFileUrl] = useState('');
   const [time, setTime] = useState<number>(0);
   const [imageUploaded, setImageUploaded] = useState(false);
